@@ -1,0 +1,59 @@
+2.
+Using Command Prompt
+1.C:\Users\spog>mongo
+2.show dbs
+3.use testfive
+4. db.menu.insert(
+... {"menu": {
+... "id": "file",
+... "value": "File",
+... "popup": {
+... "menuitem": [
+... {"value": "New", "onclick": "CreateNewDoc()"},
+... {"value": "Open", "onclick": "OpenDoc()"},
+... {"value": "Close", "onclick": "CloseDoc()"}
+... ]
+... }
+...   }
+... })
+output:WriteResult({ "nInserted" : 1 })
+
+5.show dbs
+
+********************************************
+Using MongoDB cloud
+1. created cluster0
+2.Connect
+3.Connect using MongoDB Compass
+4.Open MongoDB Compass Desktop
+mongodb+srv://spoorthi:<password>@cluster0.3fyw5.mongodb.net/test
+5.Give password and enter
+6.Create new database
+7.Give database name and collection name
+8.Copy the json text into notepad and save it with extension.json
+9.Import the json file
+10. The file is created.
+
+***********************
+Using MongoDB shell
+1.Open command promt
+2.Copy the link from MongoDB cloud for Connect with MongoDB shell
+3.Paste that link in a cmd
+4.mongo "mongodb+srv://cluster0.3fyw5.mongodb.net/myFirstDatabase" --apiVersion 1 --username spoorthi
+5.show dbs ---shows the database created
+6.use Assesment---switch to that database
+7.db.myList.insert(
+... {"menu": {
+... "id": "file",
+... "value": "File",
+... "popup": {
+... "menuitem": [
+... {"value": "New", "onclick": "CreateNewDoc()"},
+... {"value": "Open", "onclick": "OpenDoc()"},
+... {"value": "Close", "onclick": "CloseDoc()"}
+... ]
+... }
+...   }
+... })
+8.Open MongoDB compass
+9.myList collection will be added to Assesment database
