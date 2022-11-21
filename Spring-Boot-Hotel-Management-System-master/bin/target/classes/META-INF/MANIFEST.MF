@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: spog
+Build-Jdk: 16.0.1
+Implementation-Title: spring-boot-hotel-mgmt
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.hotelmgmt
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-ho
+ tel-mgmt/
+Created-By: Maven Integration for Eclipse
+
